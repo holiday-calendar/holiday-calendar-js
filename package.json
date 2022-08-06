@@ -1,0 +1,23 @@
+{
+  "name": "holiday-calendar",
+  "version": "0.0.1",
+  "description": "A library for definition and calculation of holiday calendars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holiday-calendar/holiday-calendar-js.git"
+  },
+  "keywords": [
+    "holiday",
+    "calendar"
+  ],
+  "author": "Holiday Calendar Project",
+  "license": "LGPL-2.1",
+  "bugs": {
+    "url": "https://github.com/holiday-calendar/holiday-calendar-js/issues"
+  },
+  "homepage": "https://github.com/holiday-calendar/holiday-calendar-js#readme"
+}
