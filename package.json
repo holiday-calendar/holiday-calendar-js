@@ -2,8 +2,9 @@
   "name": "holiday-calendar",
   "version": "0.0.1",
   "description": "A library for definition and calculation of holiday calendars",
-  "main": "index.js",
+  "main": "dist/index_bundle.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/holiday-calendar/holiday-calendar-js/issues"
   },
-  "homepage": "https://github.com/holiday-calendar/holiday-calendar-js#readme"
+  "homepage": "https://github.com/holiday-calendar/holiday-calendar-js#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "babel-loader": "^8.2.5",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
 }
